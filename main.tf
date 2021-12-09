@@ -5,7 +5,7 @@ provider "aws" {
   # secret_key = "0TdVOz565mRUwjXTUhCzTq4ddPNzpK/+a22MpN1V"
 }
 
-resource "aws_instance" "testtcec" {
+resource "aws_instance" "lmco-tc-poc" {
   ami                    = "ami-07d280422a9f5ee93"
   instance_type          = "t3.large"
   key_name               = "shailendra-mumbai-hclawsplm"
